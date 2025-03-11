@@ -228,9 +228,20 @@ Contributions are welcome! To propose changes or enhancements:
 
 ---
 
-## License
 
-All Rights Reserved.  
-This project is not licensed for open-source use. If you wish to use or modify this code, please contact the author for permission.
+ License (Apache 2.0)  
+
+## License
+This project is licensed under the **Apache License 2.0**.  
+You are free to use, modify, and distribute this software as long as you comply with the license terms.
+
+### **Key Terms**:
+- 🔹 You **must** include this license in any copies or substantial portions of the software.
+- 🔹 You **may** use this code for commercial and non-commercial projects.
+- 🔹 **Patent Protection** is granted, ensuring contributors cannot sue for patent claims.
+- 🔹 **Disclaimer**: This software is provided "as is," without warranties or guarantees.
+
+Read the full **[LICENSE](LICENSE)** file for more details.
+.
 
 Happy Discovering!
