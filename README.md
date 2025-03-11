@@ -78,7 +78,8 @@ venv\Scripts\activate
 ### 3. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install numpy pandas matplotlib seaborn requests prettytable biopython scikit-learn transformers torch openpyxl tk
+
 ```
 
 > **Note:**  
