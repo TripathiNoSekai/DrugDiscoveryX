@@ -7,24 +7,41 @@ jobs:
   reorg:
     runs-on: ubuntu-latest
     steps:
+      # 1. Check out the repository with full history
       - name: Check out repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Important to allow full Git history
 
-      - name: Set up Git
+      # 2. Configure Git user
+      - name: Set up Git user
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
+      # 3. Reorganize files
       - name: Reorganize
         run: |
+          # Create folders if they don't exist
           mkdir -p docs
           mkdir -p src
-          git mv DDP_4_Report.docx docs/
-          git mv "DDP_4 How to use Guide.docx" docs/
-          git mv DDP_4.py src/
-          git add .
-          git commit -m "Automated repository reorganization via GitHub Actions"
 
+          # Move files (enclose in quotes if filenames have spaces)
+          git mv "DDP_4_Report.docx" docs/ || true
+          git mv "DDP_4 How to use Guide.docx" docs/ || true
+          git mv DDP_4.py src/ || true
+
+          # Stage changes
+          git add .
+
+          # Check if there is anything to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Automated repository reorganization"
+          else
+            echo "No changes to commit."
+          fi
+
+      # 4. Push changes back to main branch
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
