@@ -1,0 +1,32 @@
+name: Reorganize Repository
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reorg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Reorganize
+        run: |
+          mkdir -p docs
+          mkdir -p src
+          git mv DDP_4_Report.docx docs/
+          git mv "DDP_4 How to use Guide.docx" docs/
+          git mv DDP_4.py src/
+          git add .
+          git commit -m "Automated repository reorganization via GitHub Actions"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
