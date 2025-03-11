@@ -243,5 +243,9 @@ You are free to use, modify, and distribute this software as long as you comply 
 
 Read the full **[LICENSE](LICENSE)** file for more details.
 .
+## About
+Developed by Prasun Dhar Tripathi  
+📩 Email: tripathidhar2025@gmail.com  
+🔗 LinkedIn: [Click Here](https://www.linkedin.com/in/prasun-dhar-tripathi-934214180)
 
 Happy Discovering!
