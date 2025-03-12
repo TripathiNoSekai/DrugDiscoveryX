@@ -1,4 +1,3 @@
-
 1. API Integration and Helper Functions
 Test perform_api_request (with Retry):
 Scenario A: Simulate a successful GET request.
