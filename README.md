@@ -29,7 +29,50 @@
 ## Features
 
 
-![Drug Discovery X](https://github.com/TripathiNoSekai/DrugDiscoveryX/blob/main/Drug_Discovery_X.svg)
+
+
+
+
+
+
+
+
+
+
+<div style="overflow-x: auto;">
+  <img src="https://raw.githubusercontent.com/TripathiNoSekai/DrugDiscoveryX/main/mermaid-diagram-2025-04-03-013030.svg" alt="Mermaid Diagram" style="max-width: 100%; height: auto;">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
