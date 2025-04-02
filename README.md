@@ -2,6 +2,8 @@
 # DrugDiscoveryX
 
 **DrugDiscoveryX** is an integrated platform that streamlines modern drug discovery by combining **AI/ML-driven virtual screening**, **multi-source API data retrieval**, and **dynamic data visualization**. Featuring both **CLI** and **GUI** interfaces—including an **interactive chat assistant** powered by DialoGPT—DrugDiscoveryX simplifies **target identification**, **lead optimization**, and **regulatory reporting** for researchers and pharmaceutical professionals.
+<img src="https://raw.githubusercontent.com/TripathiNoSekai/DrugDiscoveryX/main/DrugDiscoveryX.png" alt="DrugDiscoveryX" width="500">
+
 
 - **Repository:** [https://github.com/TripathiNoSekai/DrugDiscoveryX](https://github.com/TripathiNoSekai/DrugDiscoveryX)
 
