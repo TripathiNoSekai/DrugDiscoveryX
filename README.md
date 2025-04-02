@@ -28,6 +28,11 @@
 
 ## Features
 
+
+![Drug Discovery X](https://github.com/TripathiNoSekai/DrugDiscoveryX/blob/main/Drug_Discovery_X.svg)
+
+
+
 - **AI/ML-Driven Virtual Screening**  
   Employ a trained `RandomForestRegressor` to predict compound efficacy and streamline the screening workflow.
 
